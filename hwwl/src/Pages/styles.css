@@ -1,0 +1,29 @@
+.mySwiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 48px;
+  height: 48px;
+  z-index: 10;
+}
+
+.autoplay-progress svg {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+}
+
+.autoplay-progress circle {
+  stroke: #007aff;
+  stroke-width: 4;
+  fill: none;
+  stroke-dasharray: 125.6;
+  stroke-dashoffset: calc(125.6 * var(--progress));
+  transition: stroke-dashoffset 0.25s linear;
+}
+  
