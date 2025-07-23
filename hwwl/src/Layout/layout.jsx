@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 
-const layout = () => {
+const Layout = () => {
   return (
     <div>
       <div style={{ width: "99%", height: "29px", borderRadius: "6px", backgroundColor: "#FF9E66" }}>
@@ -90,4 +90,4 @@ const layout = () => {
   )
 }
 
-export default layout
+export default Layout;
